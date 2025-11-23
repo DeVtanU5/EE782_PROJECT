@@ -12,7 +12,7 @@ We implement and study wavelet–deep learning hybrids for:
 
 ---
 
-## 🧪 Project Components
+## Project Components
 
 ### 1. Fetal QRS Detection (CWT + CNN)
 - Dataset: ADFECGDB (abdominal + direct fetal ECG)
@@ -24,9 +24,6 @@ We implement and study wavelet–deep learning hybrids for:
   - Precision: **97.62%**
   - Recall: **95.35%**
   - F1-score: **96.47%**
-
-Notebooks:
-- `notebooks/Part1_fECG_CWT_CNN.ipynb`
 
 ---
 
@@ -41,18 +38,12 @@ Test performance (synthetic data):
 - DWT-UNet: Dice ≈ **99.4%**, IoU ≈ **98.8%**
 - UNet: Dice ≈ **99.9%**, IoU ≈ **99.8%**
 
-Notebooks:
-- `notebooks/Part2_DWT_UNet_MRI.ipynb`
-
 ---
 
 ### 3. GM/WM Segmentation via Multiresolution K-means
 - Apply Haar DWT up to level 5 on skull-stripped slices
 - Run K-means on LL5 → propagate centroids to finer scales
 - Obtain GM / WM / background segmentation
-
-Notebooks:
-- `notebooks/Part2_DWT_UNet_MRI.ipynb` (last section)
 
 ---
 
@@ -67,12 +58,9 @@ We compare:
 Notebooks:
 - `notebooks/Part3_Benchmarking.ipynb`
 
-Figures used in the report are stored in:
-- `figures/`
-
 ---
 
-## 📄 Report
+## Report
 
 The full IEEE-style report (prepared for EE782) is:
 
@@ -89,7 +77,7 @@ This report includes:
 
 ---
 
-## 👨‍🎓 Authors (IIT Bombay)
+## Authors (IIT Bombay)
 
 - **Devtanu Barman** (Roll No. 22B3904)  
 - **Sanjay Meena** (Roll No. 22B3978)  
@@ -100,7 +88,7 @@ Indian Institute of Technology Bombay.
 
 ---
 
-## 🛠 How to Run
+## How to Run
 
 1. Clone this repository:
    ```bash
