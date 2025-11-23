@@ -1,5 +1,4 @@
-# EE782 Project – Replicating 'Deep Learning with Sparse Representations for Biomedical Signals' with Extensions to CWT-based fECG Detection and
-DWT-UNet MRI Segmentation
+# EE782 Project – Replicating 'Deep Learning with Sparse Representations for Biomedical Signals' with Extensions to CWT-based fECG Detection and DWT-UNet MRI Segmentation
 
 This repository contains our EE782 course project at **IIT Bombay**, based on replicating and extending the paper:
 
