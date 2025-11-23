@@ -64,11 +64,8 @@ Notebooks:
 
 The full IEEE-style report (prepared for EE782) is:
 
-- `EE782_Project_Report.pdf`
-
-LaTeX source (IEEEtran):
-- `EE782_Project_Report.tex`
-
+- `EE782_REPORT.pdf`
+- 
 This report includes:
 - Detailed methodology
 - All plots and visualizations
